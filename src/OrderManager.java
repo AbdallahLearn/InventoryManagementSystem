@@ -27,6 +27,7 @@ public class OrderManager {
         order.setOrderStatus(newStatus);
         logOrder(order);
     }
+    //add commit on feature-stock branch on 30 line
     //add comment on line 30 by feature-orders branch
     private void logOrder(Order order) {
         System.out.println("Order Update: " + order);
